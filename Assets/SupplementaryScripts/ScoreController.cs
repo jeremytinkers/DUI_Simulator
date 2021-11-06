@@ -32,7 +32,7 @@ public class ScoreController : MonoBehaviour
         if (playerComponent)
         {
             //Debug.Log("socre in scorecontroller: " + playerComponent.score);
-            text.text = "Score: " + playerComponent.score.ToString();
+            text.text = "Fatality Rate: " + playerComponent.score.ToString();
         }
 
     }
