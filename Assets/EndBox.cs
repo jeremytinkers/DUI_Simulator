@@ -8,12 +8,15 @@ public class EndBox : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.layer == 9)
+        {
 
-        GameObject.Find("Timer").SendMessage("FinishSim");
-        
-        //Activate Game Over Screen
-        gameOver.setGameOver();
-        
-        print("Finish game!");
+            GameObject.Find("Timer").SendMessage("FinishSim");
+
+            //Activate Game Over Screen
+            gameOver.setGameOver();
+
+            print("Finish game!");
+        }
     }
 }
