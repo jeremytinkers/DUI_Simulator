@@ -7,8 +7,8 @@ public class Timer : MonoBehaviour
     TextMesh text;
     private float startTime;
     private bool finished = false;
-    private string minutes = "";
-    private string seconds = "";
+    public string minutes = "";
+    public string seconds = "";
 
 
     // Start is called before the first frame update
