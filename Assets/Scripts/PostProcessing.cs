@@ -33,7 +33,7 @@ public class PostProcessing : MonoBehaviour
         _Cromatic.intensity.value = _Cromatic.intensity.value+0.001f;
         // _DoF.aperture.value = _DoF.aperture.value-0.1f;
         // _DoF.focusDistance.value = _DoF.focusDistance.value-0.1f;
-        _DoF.focalLength.value = _DoF.focalLength.value+0.01f;
+        _DoF.focalLength.value = _DoF.focalLength.value+0.05f;
         
 
         

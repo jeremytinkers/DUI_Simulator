@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6741382452227161988}
   - component: {fileID: 2401067313231402840}
   - component: {fileID: 5965952097041753360}
+  - component: {fileID: 1596842721363332994}
   m_Layer: 0
   m_Name: BlackOutCube
   m_TagString: Untagged
@@ -93,3 +94,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1596842721363332994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8701716992776665355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37721d30f8b95c24fad15d2932aa2132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentGameObject: {fileID: 0}
+  alpha: 0
+  blackoutTrigger: 0

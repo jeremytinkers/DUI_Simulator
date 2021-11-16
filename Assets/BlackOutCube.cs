@@ -9,7 +9,9 @@ public class BlackOutCube : MonoBehaviour
     public float alpha = 0.0f;//intially full transparency
     //Get current material
     private Material currentMat;
-    public int blackoutTrigger = 0;
+    public int blackoutTrigger = 0; // public for testing pusporses
+    private int blackoutInterval = 300;
+    private int blackoutDuration = 40;
 
     // Start is called before the first frame update
     void Start()
@@ -24,15 +26,20 @@ public class BlackOutCube : MonoBehaviour
     {
         blackoutTrigger++;
   
-        if (blackoutTrigger == 500)
+        if (blackoutTrigger % blackoutInterval == 0)
         {
-            UnityEngine.Debug.Log("Blacout");
+            //UnityEngine.Debug.Log("Blackout");
             ChangeAlpha(currentMat, 1.0f);
+
+            if (blackoutInterval > 100) {
+                blackoutInterval -= 30;
+                blackoutDuration += 10;
+                  }
         }
 
-        if (blackoutTrigger ==560)
+        if (blackoutTrigger % (blackoutInterval + blackoutDuration) == 0)
         {
-            UnityEngine.Debug.Log("Undo Blacout");
+            //UnityEngine.Debug.Log("Undo Blackout");
             ChangeAlpha(currentMat, 0.0f);
         }
 
