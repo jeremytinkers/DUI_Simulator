@@ -11,7 +11,7 @@ public class EndBox : MonoBehaviour
         if (other.gameObject.layer == 9)
         {
 
-            GameObject.Find("Timer").SendMessage("FinishSim");
+            GameObject.Find("GameStatsCanvas").SendMessage("FinishSim");
 
             //Activate Game Over Screen
             gameOver.setGameOver();

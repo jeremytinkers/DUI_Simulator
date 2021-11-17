@@ -12,7 +12,9 @@ public class GameOverCanvas : MonoBehaviour
     public GameObject player;        //Public variable to store a reference to the player game object
     public CarScore playerComponent;
 
-    public Timer timerObject;
+    //public Timer timerObject;
+
+    private GameStats gameStatsObject;
 
     public void setGameOver() { 
 
@@ -22,9 +24,12 @@ public class GameOverCanvas : MonoBehaviour
     playerComponent = player.GetComponent<CarScore>();
     scoreText.text = "Score: " + playerComponent.score.ToString();
 
-    timerObject = GameObject.Find("Timer").GetComponent<Timer>();
-    timeText.text = "Time: " + timerObject.minutes + timerObject.seconds;
-        
+    gameStatsObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
+    timeText.text = "Time: " + gameStatsObject.minutes + gameStatsObject.seconds;
+
+    //timerObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
+    //timeText.text = "Time: " + timerObject.minutes + timerObject.seconds;
+
     }
 
 
