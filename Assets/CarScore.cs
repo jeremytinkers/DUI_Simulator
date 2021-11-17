@@ -21,6 +21,7 @@ public class CarScore : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //Main Collisions:-
         //AI Pedestrian
         if (other.gameObject.layer == 11)
         {
@@ -28,21 +29,27 @@ public class CarScore : MonoBehaviour
             score+=10;
             //Debug.Log("Fatality Rate: " + score);
         }
-        else
-        {
-            print("ontriggerenter triggered");
-        }
+
         //AI Car
         if (other.gameObject.layer == 12)
         {
             score += 5;
             //Debug.Log("Fatality Rate: " + score);
-            print("AI CAR ontriggerenter");
-            Debug.Log("AI CAR ontriggerenter");
+            //print("AI CAR ontriggerenter");
+            //Debug.Log("AI CAR ontriggerenter");
+        }
+
+        //Additional Collisions:-
+        //Pavements
+        if (other.gameObject.layer == 13)
+        {
+            score += 2;
+            //Debug.Log("Fatality Rate: " + score);
         }
 
     }
 
+    /*
     private void OnCollisionEnter(Collider other)
     {
         
@@ -58,5 +65,6 @@ public class CarScore : MonoBehaviour
         print("oncollisionenter triggered");
 
     }
+    */
 
 }
