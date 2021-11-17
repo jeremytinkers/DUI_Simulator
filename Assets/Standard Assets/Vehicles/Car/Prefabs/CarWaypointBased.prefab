@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 3300006}
   - component: {fileID: 2300006}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarWheelRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 400002}
   - component: {fileID: 3300014}
   - component: {fileID: 2300014}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarWheelRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 400004}
   - component: {fileID: 3300016}
   - component: {fileID: 2300016}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarWheelFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 400006}
   - component: {fileID: 3300002}
   - component: {fileID: 2300002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarWheelFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 400014}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarSuspensionFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +407,7 @@ GameObject:
   - component: {fileID: 3300028}
   - component: {fileID: 6500004}
   - component: {fileID: 2300028}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ColliderBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 400016}
   - component: {fileID: 3300026}
   - component: {fileID: 2300026}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarSuspensionFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 3300018}
   - component: {fileID: 6500002}
   - component: {fileID: 2300018}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ColliderFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 2300022}
   - component: {fileID: 11400004}
   - component: {fileID: 11400000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarMudGuardFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   - component: {fileID: 2300008}
   - component: {fileID: 11400006}
   - component: {fileID: 11400002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarMudGuardFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +885,7 @@ GameObject:
   - component: {fileID: 400022}
   - component: {fileID: 3300010}
   - component: {fileID: 2300010}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarHeadLightsGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -964,7 +964,7 @@ GameObject:
   - component: {fileID: 400024}
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarComponents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1045,7 +1045,7 @@ GameObject:
   - component: {fileID: 3300024}
   - component: {fileID: 2300024}
   - component: {fileID: 11400008}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarBrakeLightsGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1137,7 @@ GameObject:
   - component: {fileID: 400028}
   - component: {fileID: 3300020}
   - component: {fileID: 2300020}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCarBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1214,7 +1214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400030}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SkyCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400032}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1287,7 +1287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400034}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Helpers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,7 +1322,7 @@ GameObject:
   - component: {fileID: 3300012}
   - component: {fileID: 6500000}
   - component: {fileID: 2300012}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ColliderBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1412,7 +1412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400036}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1444,7 +1444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400038}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WheelHubs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400042}
   - component: {fileID: 10800002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HeadlighRightSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1571,7 +1571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400044}
   - component: {fileID: 10800000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HeadlightLeftSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1665,7 +1665,7 @@ GameObject:
   - component: {fileID: 14600000}
   - component: {fileID: 8200008}
   - component: {fileID: 11400012}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WheelHubRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1835,7 +1835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400048}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1870,7 +1870,7 @@ GameObject:
   - component: {fileID: 400050}
   - component: {fileID: 19800000}
   - component: {fileID: 19900000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ParticleBurnoutSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2141,7 +2141,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -2194,7 +2194,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -2247,7 +2247,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -2300,7 +2300,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -6461,7 +6461,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c617e7cbee0d2344a9b5e53116c43a2c, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6517,7 +6516,7 @@ GameObject:
   - component: {fileID: 14600002}
   - component: {fileID: 8200010}
   - component: {fileID: 11400014}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WheelHubRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6690,7 +6689,7 @@ GameObject:
   - component: {fileID: 14600006}
   - component: {fileID: 8200014}
   - component: {fileID: 11400018}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WheelHubFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6863,7 +6862,7 @@ GameObject:
   - component: {fileID: 14600004}
   - component: {fileID: 8200012}
   - component: {fileID: 11400016}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WheelHubFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7033,7 +7032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400060}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WaypointTargetObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7063,7 +7062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400062}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CameraFocusPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7098,7 +7097,7 @@ GameObject:
   - component: {fileID: 11400022}
   - component: {fileID: 11400024}
   - component: {fileID: 11400026}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CarWaypointBased
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -7122,6 +7121,7 @@ Transform:
   - {fileID: 400034}
   - {fileID: 400032}
   - {fileID: 400030}
+  - {fileID: 1082645930774141677}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7255,3 +7255,78 @@ MonoBehaviour:
   dopplerLevel: 1
   useDoppler: 1
   m_CameraWithAudio: {fileID: 0}
+--- !u!1001 &8183899867986685820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 400064}
+    m_Modifications:
+    - target: {fileID: 7641495584020086956, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_Name
+      value: colliderCapsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e953a5f999a9174d8fa285acff5cd67, type: 3}
+--- !u!4 &1082645930774141677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9121294671021536657, guid: 9e953a5f999a9174d8fa285acff5cd67,
+    type: 3}
+  m_PrefabInstance: {fileID: 8183899867986685820}
+  m_PrefabAsset: {fileID: 0}

@@ -26,17 +26,21 @@ public class CarScore : MonoBehaviour
         {
             Destroy(other.gameObject);
             score+=10;
-            Debug.Log("Fatality Rate: " + score);
+            //Debug.Log("Fatality Rate: " + score);
+        }
+        else
+        {
+            print("ontriggerenter triggered");
         }
         //AI Car
         if (other.gameObject.layer == 12)
         {
-            Destroy(other.gameObject);
             score += 5;
-            Debug.Log("Fatality Rate: " + score);
+            //Debug.Log("Fatality Rate: " + score);
+            print("AI CAR ontriggerenter");
+            Debug.Log("AI CAR ontriggerenter");
         }
 
-        print("SOmt");
     }
 
     private void OnCollisionEnter(Collider other)
@@ -47,11 +51,12 @@ public class CarScore : MonoBehaviour
         {
             Destroy(other.gameObject);
             score += 5;
-            print("AI CAR");
-            Debug.Log("Fatality Rate: " + score);
+            print("AI CAR oncollisionenter");
+            //Debug.Log("Fatality Rate: " + score);
         }
 
-        
+        print("oncollisionenter triggered");
+
     }
 
 }
