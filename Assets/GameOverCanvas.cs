@@ -30,7 +30,7 @@ public class GameOverCanvas : MonoBehaviour
     scoreText.text = "Score: " + pScore.ToString();
 
         //conditional colouring based on score
-        if (pScore >= 0 && pScore < 40)
+        if (pScore >= 0 && pScore < 20)
         {
             //Green, level 0
             scoreText.color = Color.green;
@@ -38,14 +38,14 @@ public class GameOverCanvas : MonoBehaviour
             verdict.text = "VERDICT: Sober,  Level 0 -> 0.00% - 0.02% bac";
 
         }
-        else if (pScore >= 40 && pScore <90)
+        else if (pScore >= 20 && pScore <60)
         {
             //yellow, level 1
             scoreText.color = Color.yellow;
             verdict.color = Color.yellow;
             verdict.text = "VERDICT: Wealky Intoxicated,  Level 1 -> 0.02% - 0.05% bac";
         }
-        else if (pScore >= 90 && pScore < 110)
+        else if (pScore >= 60 && pScore < 100)
         {
             //magenta, level 2
             scoreText.color = Color.magenta;

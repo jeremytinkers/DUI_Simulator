@@ -35,18 +35,18 @@ public class GameStats : MonoBehaviour
         scoreText.text = "Fatality Rate: " + score.ToString();
 
         //conditional colouring based on score
-        if (score >= 0 && score < 40)
+        if (score >= 0 && score < 20)
         {
             //Green, level 0
             scoreText.color = Color.green;
 
         }
-        else if (score >= 40 && score < 90)
+        else if (score >= 20 && score < 60)
         {
             //yellow, level 1
             scoreText.color = Color.yellow;
         }
-        else if (score >= 90 && score < 110)
+        else if (score >= 60 && score < 100)
         {
             //magenta, level 2
             scoreText.color = Color.magenta;
