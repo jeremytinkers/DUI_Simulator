@@ -11,6 +11,7 @@ public class GameStats : MonoBehaviour
 
     public GameObject player;        //Public variable to store a reference to the player game object
     public CarScore playerComponent;
+    private int score = 0;
 
     //private Timer timerObject;
 
@@ -30,7 +31,31 @@ public class GameStats : MonoBehaviour
     {
         //Access and set Score Text
         playerComponent = player.GetComponent<CarScore>();
-        scoreText.text = "Fatality Rate: " + playerComponent.score.ToString();
+        score = playerComponent.score;
+        scoreText.text = "Fatality Rate: " + score.ToString();
+
+        //conditional colouring based on score
+        if (score >= 0 && score < 40)
+        {
+            //Green, level 0
+            scoreText.color = Color.green;
+
+        }
+        else if (score >= 40 && score < 90)
+        {
+            //yellow, level 1
+            scoreText.color = Color.yellow;
+        }
+        else if (score >= 90 && score < 110)
+        {
+            //magenta, level 2
+            scoreText.color = Color.magenta;
+        }
+        else
+        {
+            //red, level 3
+            scoreText.color = Color.red;
+        }
 
         if (!finished)
         {

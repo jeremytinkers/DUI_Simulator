@@ -10,8 +10,8 @@ public class BlackOutCube : MonoBehaviour
     //Get current material
     private Material currentMat;
     public int blackoutTrigger = 0; // public for testing pusporses
-    private int blackoutInterval = 300;
-    private int blackoutDuration = 40;
+    public int blackoutInterval = 300;
+    public int blackoutDuration = 40;
 
     // Start is called before the first frame update
     void Start()
