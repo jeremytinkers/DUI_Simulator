@@ -63,7 +63,7 @@ public class GameOverCanvas : MonoBehaviour
 
 
     gameStatsObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
-    timeText.text = "Time: " + gameStatsObject.minutes + gameStatsObject.seconds;
+    timeText.text = "Time: " + gameStatsObject.timeFinal + "s";
 
     //timerObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
     //timeText.text = "Time: " + timerObject.minutes + timerObject.seconds;

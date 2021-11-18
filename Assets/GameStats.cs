@@ -12,13 +12,13 @@ public class GameStats : MonoBehaviour
     public GameObject player;        //Public variable to store a reference to the player game object
     public CarScore playerComponent;
     private int score = 0;
-
+    
     //private Timer timerObject;
 
     private float startTime;
     private bool finished = false;
-    public string minutes = "";
-    public string seconds = "";
+    public string timeFinal = "";
+    public float t = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -57,14 +57,14 @@ public class GameStats : MonoBehaviour
             scoreText.color = Color.red;
         }
 
+        //Timer
         if (!finished)
         {
-            float t = Time.time - startTime;
-            minutes = ((int)t / 60).ToString();
-            seconds = (t % 60).ToString("f2");
+            t = Time.time - startTime;
+            timeFinal = t.ToString("f0");
         }
 
-        timeText.text = "Time: " + minutes + seconds;
+        timeText.text = "Time: " + timeFinal + "s";
 
         //Alternative Method:-
         //timerObject = GameObject.Find("Timer").GetComponent<Timer>();
