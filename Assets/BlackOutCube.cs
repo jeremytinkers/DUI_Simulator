@@ -10,8 +10,8 @@ public class BlackOutCube : MonoBehaviour
     //Get current material
     private Material currentMat;
     public int blackoutTrigger = 0; // public for testing pusporses
-    public int blackoutInterval = 300;
-    public int blackoutDuration = 30;
+    public int blackoutInterval = 100;
+    public int blackoutDuration = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -32,9 +32,13 @@ public class BlackOutCube : MonoBehaviour
             ChangeAlpha(currentMat, 1.0f);
 
             if (blackoutInterval > 100) {
-                blackoutInterval -= 4;
-                blackoutDuration += 1;
+                blackoutInterval -= 2;
                   }
+
+            if (blackoutTrigger>=2000 && blackoutDuration < 4  )
+            {
+                blackoutDuration += 1;
+            }
         }
 
         if (blackoutTrigger % (blackoutInterval + blackoutDuration) == 0)

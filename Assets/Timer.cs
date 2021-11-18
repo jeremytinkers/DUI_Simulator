@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     private bool finished = false;
     public string minutes = "";
     public string seconds = "";
+    private float t = 0;
 
 
     // Start is called before the first frame update
@@ -23,12 +24,13 @@ public class Timer : MonoBehaviour
     {
         if (!finished)
         {
-            float t = Time.time - startTime;
+            t = Time.time - startTime;
+            print("time: " + t);
             minutes = ((int)t / 60).ToString();
             seconds = (t % 60).ToString("f2");
         }
 
-        text.text = "Time: " + minutes + seconds;
+        text.text = "Time: " + t.ToString();
 
 
     }
