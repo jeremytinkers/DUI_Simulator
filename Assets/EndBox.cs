@@ -5,13 +5,15 @@ using UnityEngine;
 public class EndBox : MonoBehaviour
 {
     public GameOverCanvas gameOver;
+
+    public Canvas gameStatsCanvasPointer;
     
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 9)
         {
 
-            GameObject.Find("GameStatsCanvas").SendMessage("FinishSim");
+            gameStatsCanvasPointer.SendMessage("FinishSim");
 
             //Activate Game Over Screen
             gameOver.setGameOver();

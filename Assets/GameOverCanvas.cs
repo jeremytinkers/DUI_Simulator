@@ -20,6 +20,8 @@ public class GameOverCanvas : MonoBehaviour
 
     private GameStats gameStatsObject;
 
+    public Canvas gameStatsPointer;
+
     public void setGameOver() {
     print("Running setGameOver!");
 
@@ -63,10 +65,11 @@ public class GameOverCanvas : MonoBehaviour
             verdict.color = Color.red;
             verdict.text = "VERDICT: Severly Intoxicated,  Level 3 ->  >= 0.08% bac";
         }
-   
 
 
-    gameStatsObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
+    gameStatsObject = gameStatsPointer.GetComponent<GameStats>();
+    //gameStatsObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
+    print("timefinal in gameover:" + gameStatsObject.timeFinal);
     timeText.text = "Time: " + gameStatsObject.timeFinal + "s";
 
     //timerObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
