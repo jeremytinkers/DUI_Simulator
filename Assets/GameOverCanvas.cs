@@ -13,16 +13,20 @@ public class GameOverCanvas : MonoBehaviour
 
     public GameObject player;        //Public variable to store a reference to the player game object
     public CarScore playerComponent;
+
     private int pScore=0;
 
     //public Timer timerObject;
 
     private GameStats gameStatsObject;
 
-    public void setGameOver() { 
+    public void setGameOver() {
+    print("Running setGameOver!");
 
     gameObject.SetActive(true);
-    
+    GameObject.Find("GameStatsCanvas").SetActive(false);
+
+
     //Access and set Score Text
     playerComponent = player.GetComponent<CarScore>();
     pScore = playerComponent.score;
