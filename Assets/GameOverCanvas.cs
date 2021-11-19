@@ -26,8 +26,8 @@ public class GameOverCanvas : MonoBehaviour
     print("Running setGameOver!");
 
     gameObject.SetActive(true);
-    GameObject.Find("GameStatsCanvas").SetActive(false);
-
+    
+    gameStatsPointer.gameObject.SetActive(false);
 
     //Access and set Score Text
     playerComponent = player.GetComponent<CarScore>();
@@ -69,7 +69,7 @@ public class GameOverCanvas : MonoBehaviour
 
     gameStatsObject = gameStatsPointer.GetComponent<GameStats>();
     //gameStatsObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
-    print("timefinal in gameover:" + gameStatsObject.timeFinal);
+    //print("timefinal in gameover:" + gameStatsObject.timeFinal);
     timeText.text = "Time: " + gameStatsObject.timeFinal + "s";
 
     //timerObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();

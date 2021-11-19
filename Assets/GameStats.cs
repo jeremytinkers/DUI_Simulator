@@ -65,7 +65,7 @@ public class GameStats : MonoBehaviour
         }
 
         timeText.text = "Time: " + timeFinal + "s";
-        print("timefinal in gamestats:" + timeFinal);
+        //print("timefinal in gamestats:" + timeFinal);
 
         //Alternative Method:-
         //timerObject = GameObject.Find("Timer").GetComponent<Timer>();

@@ -13,12 +13,12 @@ public class EndBox : MonoBehaviour
         if (other.gameObject.layer == 9)
         {
 
-            gameStatsCanvasPointer.SendMessage("FinishSim");
+            //gameStatsCanvasPointer.SendMessage("FinishSim");
 
             //Activate Game Over Screen
             gameOver.setGameOver();
 
-            print("Finish game!");
+            //print("Finish game!");
         }
     }
 }
