@@ -17,4 +17,3 @@ Built using **Unity** with the intent to be experienced on a **VR** capable head
 2. Open the project with the right Unity Editor version (Unity Hub would automatically do that for you)
 3. Experience DUI
 
-Kindly find attached the detailed report as <Report File Name>
