@@ -62,7 +62,13 @@ public class GameOverCanvas : MonoBehaviour
    
 
 
+<<<<<<< Updated upstream
     gameStatsObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
+=======
+    gameStatsObject = gameStatsPointer.GetComponent<GameStats>();
+    //gameStatsObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();
+    // print("timefinal in gameover:" + gameStatsObject.timeFinal);
+>>>>>>> Stashed changes
     timeText.text = "Time: " + gameStatsObject.timeFinal + "s";
 
     //timerObject = GameObject.Find("GameStatsCanvas").GetComponent<GameStats>();

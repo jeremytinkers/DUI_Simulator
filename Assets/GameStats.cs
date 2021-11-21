@@ -65,6 +65,10 @@ public class GameStats : MonoBehaviour
         }
 
         timeText.text = "Time: " + timeFinal + "s";
+<<<<<<< Updated upstream
+=======
+        // print("timefinal in gamestats:" + timeFinal);
+>>>>>>> Stashed changes
 
         //Alternative Method:-
         //timerObject = GameObject.Find("Timer").GetComponent<Timer>();
@@ -75,7 +79,7 @@ public class GameStats : MonoBehaviour
     {
         finished = true;
         timeText.color = Color.yellow;
-        print("message received!");
+        // print("message received!");
     }
 
 }
